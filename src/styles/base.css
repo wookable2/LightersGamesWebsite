@@ -47,12 +47,12 @@ a, lite-youtube, lite-youtube > .lty-playbtn {
 }
 
 body {
-	background-color: #1e181c;
+	background-color: #282828;
 	margin: 0;
 	font-family: 'Paperlogy-4Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	font-size: calc(1rem + 0.25vw);
 	line-height: 1.5;
-	color: #fbf9da;
+	color: #ffffff;
 }
 
 a {
