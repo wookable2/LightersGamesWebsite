@@ -1,40 +1,84 @@
-<a href="https://store.steampowered.com/app/2544740/THANKS_LIGHT/"> <!-- 여기에 나중에 EpicGames 링크 생기면 바꾸면 됨 -->
-	<img src="/img/epic-logo.png" alt="" role="presentation" width="34" height="34" />
-	<span>Epic Games</span>
-</a>
+<div class="button-container">
+  <a href="" class="epic-button">
+    <img src="/img/epic-logo.png" alt="" role="presentation" width="34" height="34" />
+    <span>Epic Games</span>
+    <span class="tooltip">To be added soon!</span>
+  </a>
+</div>
 
 <style>
-	a {
-		padding: 0.75em 1.5em 0.75em 1.2em;
-		background: linear-gradient(to right, #6e6e6e 5%, #565555 95%);
-		color: #fff;
-		text-decoration: none;
-		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-		border-radius: 4px;
-		display: flex;
-		align-items: center;
-		width: fit-content;
-		margin: auto;
-		font-size: 1.1em;
-		justify-content: space-between;
-		text-transform: uppercase;
-	}
+  .button-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
 
-	a:hover,
-	a:focus {
-		background: linear-gradient(to right, #999999 5%, #666666 95%);
-		box-shadow: 0 0 16px 0 #b2b2b2;
-	}
+  a {
+    padding: 0.75em 1.5em 0.75em 1.2em;
+    background: linear-gradient(to right, #6e6e6e 5%, #565555 95%);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.1em;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
 
-	img {
-		height: 1.25em;
-		margin-right: 0.75em;
-		width: auto;
-	}
+  a:hover,
+  a:focus {
+    background: linear-gradient(to right, #999999 5%, #666666 95%);
+    box-shadow: 0 0 16px 0 #b2b2b2;
+  }
 
-	@media screen and (max-width: 500px) {
-		a {
-			width: 100%;
-		}
-	}
+  img {
+    height: 1.25em;
+    margin-right: 0.75em;
+    width: auto;
+  }
+
+  .tooltip {
+    visibility: hidden;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.8em;
+    white-space: nowrap;
+    text-transform: none;
+  }
+
+  .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+
+  a:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 500px) {
+    a {
+      width: 100%;
+    }
+  }
 </style>
