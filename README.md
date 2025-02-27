@@ -1,7 +1,7 @@
-# Amelite
-Amelite is a 2D platformer that will challenge your creativity in this new take on a classic genre. Create your own path as the power of drawing platforms is in *your* hands!
+# THANKS LIGHT.
+"THANKS, LIGHT." is a puzzle platformer game where you shine or absorb light to transform objects between 2D and 3D states.
 
-- Deployment at [https://amelitegame.com/](https://amelitegame.com/)
-- Visit the [steam page](https://amelitegame.com/steam)
+- Deployment at [https://lightersgames.com/](https://lightersgames.com/)
+- Visit the [steam page](https://store.steampowered.com/search/?publisher=Lighters)
 
-![](/public/img/trailer-img.png)
+![](/public/img/trailer-img.webp)
