@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Paperlogy-6SemiBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paperlogy-4Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paperlogy-2ExtraLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
 *, *::after, *::before {
 	margin: 0;
 	box-sizing: border-box;
@@ -28,7 +49,7 @@ a, lite-youtube, lite-youtube > .lty-playbtn {
 body {
 	background-color: #1e181c;
 	margin: 0;
-	font-family: 'Paperlogy-8ExtraBold', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Paperlogy-4Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	font-size: calc(1rem + 0.25vw);
 	line-height: 1.5;
 	color: #fbf9da;
@@ -36,6 +57,10 @@ body {
 
 a {
 	color: inherit;
+}
+
+p h2 {
+  font-family: 'Paperlogy-6SemiBold', serif;
 }
 
 ::selection {
