@@ -20,11 +20,9 @@ html {
 }
 
 html, lite-youtube.lyt-activated, .ytp-autohide, video {
-	cursor: url("/img/cursor-default.png"), default !important;
 }
 
 a, lite-youtube, lite-youtube > .lty-playbtn {
-    cursor: url("/img/cursor-pointer.png"), pointer !important;
 }
 
 body {
