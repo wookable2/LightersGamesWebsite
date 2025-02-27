@@ -3,5 +3,3 @@
 
 - Deployment at [https://lightersgames.com/](https://lightersgames.com/)
 - Visit the [steam page](https://store.steampowered.com/search/?publisher=Lighters)
-
-![](/public/img/trailer-img.webp)
