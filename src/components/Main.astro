@@ -25,8 +25,10 @@ import SocialMediaButton from '../components/SocialMediaButton.astro';
 		</p>
 		<h2><span style="font-family: 'Paperlogy-6SemiBold', serif;">Trailer</span></h2>
 		<YouTube id="BbaYeA66mMM" alt="Play video: ThanksLight trailer" />
-		<SteamButton />
-		<EpicGamesStoreButton />
+		<ul class="stores">
+			<li><SteamButton /></li>
+			<li><EpicGamesStoreButton /></li>
+		</ul>
 		<h2><span style="font-family: 'Paperlogy-6SemiBold', serif;">About</span></h2>
 		<p>
 			"THANKS, LIGHT." is a puzzle platformer game where you shine or absorb light to transform objects between 2D and 3D states. Don't judge objects by their silhouettes. Shine light to reveal the true form of the objects. Tinker with our puzzles, and uncover the mystery!
@@ -54,8 +56,10 @@ import SocialMediaButton from '../components/SocialMediaButton.astro';
 			<Screenshot id={4} />
 			<Screenshot id={5} />
 		</div>
-		<SteamButton />
-		<EpicGamesStoreButton />
+		<ul class="stores">
+			<li><SteamButton /></li>
+			<li><EpicGamesStoreButton /></li>
+		</ul>
 	</div>
 </main>
 
